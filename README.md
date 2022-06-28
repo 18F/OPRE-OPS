@@ -34,6 +34,11 @@ To create an admin user, use the Django management tool from within the containe
 docker-compose exec web python manage.py createsuperuser
 ```
 
+To seed the database with [fake data](https://github.com/HHS/OPRE-OPS/blob/main/opre_ops/ops_site/fixtures/fake_data.json):
+```
+docker-compose exec web python manage.py loaddata ops_site/fixtures/fake_data.json
+```
+
 ### Dependency management with pipenv
 
 To verify pipenv is installed and working locally, run:
