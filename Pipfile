@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 Django = "==4.0.5"
-psycopg2-binary = "==2.9.3"
+psycopg2-binary = "==2.9.8"
 cfenv = "0.5.3"
 pyparsing = "*"
 pydot = "*"
